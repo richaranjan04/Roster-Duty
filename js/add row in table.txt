@@ -1,0 +1,30 @@
+function addRow(obj)
+		{    
+		     
+			var lastTr = $('#dataTable').find('tr:last');
+			//console.log(lastTr);
+			var newTr = $(lastTr).clone();
+			//console.log(newTr);
+			$(lastTr).after(newTr);
+
+		$(newTr).find('#Delete').attr("disabled",false);
+
+		$(newTr).find('input[type=text]').each(function (key,temp) {
+		$(temp).val("");
+		$(temp).text("");
+		});
+	
+			$(newTr).find('select').each(function(key,temp){
+				var selected = $(temp).find('option:selected');
+				$(temp).find('option').removeAttr('disabled');
+				$(selected).removeAttr('selected');
+			
+			});
+		}
+
+
+
+
+
+
+

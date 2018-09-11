@@ -1,0 +1,37 @@
+.carousel-inner
+{
+    width:300px;
+    height: 400px;
+    background-position: center;
+}
+
+.navbar-brand
+{
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+}
+/*
+.space
+{
+    margin-bottom: 30px;
+}
+*/
+
+.abtus
+{
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  background: rgb(246,246,246);
+    
+}
+.pabtus
+{
+  font-family: 'Hind', sans-serif;
+  text-align: center;  
+}
+
+footer
+{
+    background-color: black;
+    color:white;
+}

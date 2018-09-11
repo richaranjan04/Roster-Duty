@@ -1,0 +1,43 @@
+.boody
+{
+    background-image: url("Internship/air-pollution-business-clouds-459670.jpg");
+    background-position: center;
+    height: 700px;
+    opacity: 0.8;
+    z-index: 0;
+    
+}
+
+
+.myinfo
+{
+    color: white;
+    border-top: 400px;
+    background-color: black;
+}
+
+.form-group
+{
+    
+    padding-left: 350px;
+    padding-right: 350px;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.head
+{
+    color:white;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+   
+   
+   
+}
+.padtop
+{
+    padding-top: 50px;
+    
+}
+

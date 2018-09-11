@@ -1,0 +1,29 @@
+.navbar-brand
+{
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+}
+.space
+{
+    margin-bottom: 50px;
+}
+
+
+footer
+{
+    background-color: black;
+    color:white;
+}
+
+
+.back
+{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+}
+
+.contain
+{
+    height: 420px;
+}
